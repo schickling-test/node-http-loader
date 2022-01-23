@@ -1,0 +1,11 @@
+{
+  "name": "node-http-loader",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "run-example": "node --experimental-loader ./dist/index.js example/index.mjs"
+  },
+  "dependencies": {
+    "undici": "4.12.2"
+  }
+}
